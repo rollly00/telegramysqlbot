@@ -2,7 +2,7 @@
 import telebot
 import MySQLdb
 bot = telebot.TeleBot("")
-
+new string = 'test'
 @bot.message_handler(commands=['auth'])
 def send_auth(message):
     #создаем пустую переменную 
